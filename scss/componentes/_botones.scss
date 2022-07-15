@@ -1,0 +1,24 @@
+.boton-color{
+    background-color: $color-principal;
+    border: 0;
+
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.514);
+        border: 0;
+        background-color: $color-boton-hover;
+    }
+}
+
+.boton-marron{
+    @extend .boton-color;
+        background-color: rgb(92, 10, 10);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        &:hover{
+            background-color: rgb(56, 7, 7) ;
+        }
+}

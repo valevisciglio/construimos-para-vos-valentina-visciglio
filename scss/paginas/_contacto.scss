@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, p, li, a, button, form{
+    font-family: 'Montserrat', sans-serif;
+}
+.seccion-formulario{
+    margin-top: 100px;
+    
+}
+
+.texto-contacto{
+    font-size: 24px;
+    margin-top: 8px;
+    color: $color-secundario;
+}
+
+.container-formulario{
+    display: flex;
+    justify-content: space-between;
+
+}
+@media screen and (max-width: 780px) {
+    .container-formulario{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+.imagen-contacto{
+    width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+    .imagen-contacto{
+        width: 100%;
+    }
+}
+
+
+.formulario{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:780px) {
+    .formulario{
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}

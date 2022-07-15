@@ -1,0 +1,220 @@
+.tarjeta-1{
+    background-color:$color-background;
+    box-shadow: 3px 3px 3px rgb(219, 219, 219);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 16px;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    justify-content: space-between;
+
+    &:hover{
+        box-shadow: 9px 9px 7px rgb(219, 219, 219);
+        background-color: $color-background-hover;
+        color: $color-principal;
+} 
+}
+
+@media screen and (max-width: 780px) {
+    .imagen-servicios{
+        width: 40px;
+        margin-left: 125px;
+        
+}
+    .tarjeta-1{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 310px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+    
+    
+
+.titulo-2{
+        font-size: 24px;
+        font-weight: 500;
+        color: $color-principal;
+        margin-top: 10px;
+    }
+
+    .texto-tarjeta{
+        color: $color-secundario;
+        font-size: 18px;
+        margin-top: 8px;
+    }
+
+
+.tarjeta-2-imagen{
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 780px) {
+    .tarjeta-2-imagen{
+        width: 24px;
+        margin-left: 120px;
+
+    }
+    
+}
+
+.tarjeta-2{
+            background-color: $color-background;
+            box-shadow: 3px 3px 3px rgb(219, 219, 219);
+            border-radius: 10px;
+            padding: 25px;
+            margin: 15px;
+            width: 400px;
+            text-align: center;
+            height: auto;
+            display: inline-block;
+            font-size: 18px;
+
+    &:hover{
+        box-shadow: 9px 9px 7px rgb(219, 219, 219);
+        background-color: $color-background-hover;
+
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+    .tarjeta-2{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 310px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+}
+
+
+.tarjeta-valores{
+    color: white;
+    padding: 10px ; 
+    margin-right: 70px;
+    margin-left: 70px;
+    margin-top: 16px;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    justify-content: space-between;
+
+    .texto-valores{
+        color: $color-principal;
+        margin-top: 16px;
+        font-weight: 500;
+    }
+
+}
+
+@media screen and (max-width: 780px) {
+        .icono-valores{
+            width: 32px;
+       }
+
+       .parrafo-valores{
+         width: 200px;
+    
+        }
+
+       .tarjeta-valores{
+        margin-right: auto;
+        margin-left: auto;
+        width: 150px;
+        height: auto;
+        display: flex;
+        justify-content: sp;
+        flex-direction: column;
+       }
+
+    
+}
+
+
+
+.tarjeta-equipo{
+    padding: 10px;
+    margin:45px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    justify-content: space-between;
+    
+.titulo-tarjeta-equipo{
+    font-weight: 500;
+    margin-top: 16px;
+    color: $color-principal;
+    font-size: 18px;
+}
+    
+}
+.imagen-persona{
+        width: 200px;
+        
+    }
+
+
+
+.tarjeta-trabajos{
+    border: solid 2px white;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    width: 350px;
+    height: auto;
+    display: inline-block;
+    font-size: 18px;
+
+    &:hover{
+        transform: scale(1.1);
+        color: $color-principal;
+    }
+
+    .imagen-trabajos{
+        width: 350px;
+        border-radius: 6px;
+    }
+
+    .titulo-tarjeta{
+        margin-top: 12px;
+    }
+
+    &:hover{
+        color:$color-principal
+    }
+
+    .texto-tarjeta{
+        color: $color-secundario;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    .imagen-trabajo-de-construccion{
+        width: 290px;
+    }
+    .tarjeta-trabajos{
+        margin-right: 20px;
+        margin-left: 20px;
+        width: 310px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}  
+    }
+        
+    

@@ -24,15 +24,17 @@
         width: 40px;
         margin-left: 125px;
         
+        
 }
     .tarjeta-1{
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
         width: 310px;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
     }
 }
     
@@ -87,13 +89,14 @@
 
 @media screen and (max-width: 780px) {
     .tarjeta-2{
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
         width: 310px;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content: center;
     }
     
 }
@@ -134,8 +137,9 @@
         width: 150px;
         height: auto;
         display: flex;
-        justify-content: sp;
+        justify-content: space-between;
         flex-direction: column;
+        align-self: center;
        }
 
     
@@ -160,14 +164,25 @@
     
 }
 .imagen-persona{
-        width: 200px;
+        width: 100%;
         
+}
+@media screen and (max-width:780px) {
+    .tarjeta-equipo{
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-self: center;
     }
+}
+
+
 
 
 
 .tarjeta-trabajos{
-    border: solid 2px white;
     padding: 10px;
     margin-left: 40px;
     margin-right: 40px;
@@ -179,13 +194,13 @@
     font-size: 18px;
 
     &:hover{
-        transform: scale(1.1);
+        transform: scale(1.05);
         color: $color-principal;
     }
 
     .imagen-trabajos{
         width: 350px;
-        border-radius: 6px;
+        border-radius: 20px;
     }
 
     .titulo-tarjeta{
@@ -207,13 +222,14 @@
         width: 290px;
     }
     .tarjeta-trabajos{
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: auto;
+        margin-left: auto;
         width: 310px;
         height: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-content:center ;
 }  
     }
         

@@ -1,16 +1,10 @@
-h1, h2, h3, h4, h5, p, li, a, button, form{
-    font-family: 'Montserrat', sans-serif;
-}
-
 .titulo-header{
-    &:hover{
-        transform: scale(1.15);
-    }
+    color: $color-secundario;
 
-    .nav.link.active.texto-header{
         &:hover{
-            color: $color-principal;
-        }
+        transform: scale(1.05);
+        color: $color-principal
+        
     }
 }
 
@@ -123,4 +117,7 @@ h1, h2, h3, h4, h5, p, li, a, button, form{
 
 .iconos{
     padding: 40px;
+    font-size: 24px;
+
 }
+

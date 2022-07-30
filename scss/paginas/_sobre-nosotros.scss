@@ -1,5 +1,5 @@
-h1, h2, h3, h4, h5, p, li, a, button, form{
-    font-family: 'Montserrat', sans-serif;
+.body{
+    overflow-x: hidden;
 }
 
 .seccion-sobre-nosotros{
@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, p, li, a, button, form{
     .titulo-sobre-nosotros{
         font-size: 36px;
         text-align: left;
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 170px;
         width: 100%;
 
@@ -17,26 +17,27 @@ h1, h2, h3, h4, h5, p, li, a, button, form{
 
 .texto-sobre-nosotros{
             font-size: 18px;
-            margin-left: 70px;
+            margin-left: 60px;
             width: 70%;
             margin-top: 45px;
+            margin-bottom: 40px;
             color: $color-secundario;
     }
 
     .imagen-equipo{
         width: 100%;
-    
+
 } 
     
 }
 
 @media screen and (max-width:780px) {
     
-    .seccion-sobre-nosotros{    
-    margin-left: 20px;
-    margin-right: 20px;
+    .seccion-sobre-nosotros{ 
+    
     flex-direction: column;
 }
+    
 }    
 
 

@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, p, li, a, button, form {
+  font-family: "Montserrat", sans-serif;
+}
+
 .boton-color, .boton-marron {
   background-color: rgb(231, 150, 0);
   border: 0;
@@ -18,6 +22,27 @@
 }
 .boton-marron:hover {
   background-color: rgb(56, 7, 7);
+}
+
+.boton-linkedin {
+  color: white;
+}
+.boton-linkedin:hover {
+  color: rgb(231, 150, 0);
+}
+
+.boton-facebook {
+  color: white;
+}
+.boton-facebook:hover {
+  color: rgb(231, 150, 0);
+}
+
+.boton-twitter {
+  color: white;
+}
+.boton-twitter:hover {
+  color: rgb(231, 150, 0);
 }
 
 .tarjeta-1 {
@@ -46,13 +71,14 @@
     margin-left: 125px;
   }
   .tarjeta-1 {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 310px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
   }
 }
 .titulo-2 {
@@ -97,13 +123,14 @@
 
 @media screen and (max-width: 780px) {
   .tarjeta-2 {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     width: 310px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
   }
 }
 .tarjeta-valores {
@@ -136,8 +163,9 @@
     width: 150px;
     height: auto;
     display: flex;
-    justify-content: sp;
+    justify-content: space-between;
     flex-direction: column;
+    align-self: center;
   }
 }
 .tarjeta-equipo {
@@ -156,11 +184,20 @@
 }
 
 .imagen-persona {
-  width: 200px;
+  width: 100%;
 }
 
+@media screen and (max-width: 780px) {
+  .tarjeta-equipo {
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: center;
+  }
+}
 .tarjeta-trabajos {
-  border: solid 2px white;
   padding: 10px;
   margin-left: 40px;
   margin-right: 40px;
@@ -172,12 +209,12 @@
   font-size: 18px;
 }
 .tarjeta-trabajos:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   color: rgb(231, 150, 0);
 }
 .tarjeta-trabajos .imagen-trabajos {
   width: 350px;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 .tarjeta-trabajos .titulo-tarjeta {
   margin-top: 12px;
@@ -194,23 +231,21 @@
     width: 290px;
   }
   .tarjeta-trabajos {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
     width: 310px;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
   }
 }
-h1, h2, h3, h4, h5, p, li, a, button, form {
-  font-family: "Montserrat", sans-serif;
+.titulo-header {
+  color: grey;
 }
-
 .titulo-header:hover {
-  transform: scale(1.15);
-}
-.titulo-header .nav.link.active.texto-header:hover {
+  transform: scale(1.05);
   color: rgb(231, 150, 0);
 }
 
@@ -312,10 +347,11 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
 
 .iconos {
   padding: 40px;
+  font-size: 24px;
 }
 
-h1, h2, h3, h4, h5, p, li, a, button, form {
-  font-family: "Montserrat", sans-serif;
+.body {
+  overflow-x: hidden;
 }
 
 .seccion-sobre-nosotros {
@@ -325,15 +361,16 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
 .seccion-sobre-nosotros .titulo-sobre-nosotros {
   font-size: 36px;
   text-align: left;
-  margin-left: 70px;
+  margin-left: 60px;
   margin-top: 170px;
   width: 100%;
 }
 .seccion-sobre-nosotros .texto-sobre-nosotros {
   font-size: 18px;
-  margin-left: 70px;
+  margin-left: 60px;
   width: 70%;
   margin-top: 45px;
+  margin-bottom: 40px;
   color: grey;
 }
 .seccion-sobre-nosotros .imagen-equipo {
@@ -342,8 +379,6 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
 
 @media screen and (max-width: 780px) {
   .seccion-sobre-nosotros {
-    margin-left: 20px;
-    margin-right: 20px;
     flex-direction: column;
   }
 }
@@ -386,10 +421,6 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   margin-top: 32px;
 }
 
-h1, h2, h3, h4, h5, p, li, a, button, form {
-  font-family: "Montserrat", sans-serif;
-}
-
 .titulo-trabajos {
   font-size: 36px;
   text-align: center;
@@ -403,24 +434,21 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   color: grey;
 }
 
-h1, h2, h3, h4, h5, p, li, a, button, form {
-  font-family: "Montserrat", sans-serif;
-}
-
 .seccion-blog {
   margin-top: 140px;
+  font-size: 36px;
+  text-align: left;
+  margin-left: 50px;
 }
 
 .texto-noticia {
   color: grey;
 }
 
-h1, h2, h3, h4, h5, p, li, a, button, form {
-  font-family: "Montserrat", sans-serif;
-}
-
-.seccion-formulario {
-  margin-top: 100px;
+.seccion-contacto {
+  margin-top: 140px;
+  font-size: 36px;
+  text-align: center;
 }
 
 .texto-contacto {

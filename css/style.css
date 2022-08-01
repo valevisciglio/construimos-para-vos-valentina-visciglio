@@ -282,7 +282,6 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   font-size: 36px;
   margin-top: 48px;
   margin-bottom: 24px;
-  font-style: normal;
   text-align: center;
 }
 
@@ -377,9 +376,12 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   width: 100%;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 992px) {
   .seccion-sobre-nosotros {
     flex-direction: column;
+  }
+  .texto-sobre-nosotros {
+    width: 100%;
   }
 }
 .seccion-valores {

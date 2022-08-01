@@ -24,23 +24,24 @@
             color: $color-secundario;
     }
 
-    .imagen-equipo{
+   .imagen-equipo{
         width: 100%;
+ 
+    
+}
 
 } 
-    
-}
 
-@media screen and (max-width:780px) {
+@media screen and (max-width:992px) {
     
     .seccion-sobre-nosotros{ 
-    
-    flex-direction: column;
+        flex-direction: column;
 }
+    .texto-sobre-nosotros{
+        width: 100%;
+    }
     
 }    
-
-
 
 .seccion-valores{
     background-color: black;

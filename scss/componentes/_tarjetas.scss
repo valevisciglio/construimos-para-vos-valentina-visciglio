@@ -12,6 +12,8 @@
     display: inline-block;
     justify-content: space-between;
 
+    
+
     &:hover{
         box-shadow: 9px 9px 7px rgb(219, 219, 219);
         background-color: $color-background-hover;
@@ -68,16 +70,16 @@
 }
 
 .tarjeta-2{
-            background-color: $color-background;
-            box-shadow: 3px 3px 3px rgb(219, 219, 219);
-            border-radius: 10px;
-            padding: 25px;
-            margin: 15px;
-            width: 400px;
-            text-align: center;
-            height: auto;
-            display: inline-block;
-            font-size: 18px;
+    background-color: $color-background;
+    box-shadow: 3px 3px 3px rgb(219, 219, 219);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    width: 400px;
+    text-align: center;
+    height: auto;
+    display: inline-block;
+    font-size: 18px;
 
     &:hover{
         box-shadow: 9px 9px 7px rgb(219, 219, 219);

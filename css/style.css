@@ -456,6 +456,10 @@ body {
   color: grey;
 }
 
+.contacto {
+  background-color: rgba(0, 0, 0, 0.116);
+}
+
 .seccion-contacto {
   margin-top: 140px;
   font-size: 36px;

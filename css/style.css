@@ -2,9 +2,11 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   font-family: "Montserrat", sans-serif;
 }
 
-footer {
-  position: absolute;
-  width: 100%;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .boton-color, .boton-marron {

@@ -3,16 +3,11 @@
     box-shadow: 3px 3px 3px rgb(219, 219, 219);
     border-radius: 10px;
     text-align: center;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 16px;
     padding: 10px;
+    margin: 16px;
     width: 350px;
     height: auto;
-    display: inline-block;
-    justify-content: space-between;
-
-    
+      
 
     &:hover{
         box-shadow: 9px 9px 7px rgb(219, 219, 219);
@@ -22,22 +17,12 @@
 }
 
 @media screen and (max-width: 780px) {
-    .imagen-servicios{
-        width: 40px;
-        margin-left: 125px;
-        
-        
-}
     .tarjeta-1{
         margin-left: auto;
         margin-right: auto;
         width: 310px;
         height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
+        }
 }
     
     
@@ -107,14 +92,12 @@
 .tarjeta-valores{
     color: white;
     padding: 10px ; 
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 16px;
     width: 300px;
     height: auto;
-    display: inline-block;
-    justify-content: space-between;
-
+    
     .texto-valores{
         color: $color-principal;
         margin-top: 16px;
@@ -122,32 +105,6 @@
     }
 
 }
-
-@media screen and (max-width: 780px) {
-        .icono-valores{
-            width: 32px;
-       }
-
-       .parrafo-valores{
-         width: 200px;
-    
-        }
-
-       .tarjeta-valores{
-        margin-right: auto;
-        margin-left: auto;
-        width: 150px;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        align-self: center;
-       }
-
-    
-}
-
-
 
 .tarjeta-equipo{
     padding: 10px;
@@ -186,53 +143,46 @@
 
 .tarjeta-trabajos{
     padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 16px;
-    margin-bottom: 40px;
+    margin: 16px;
     width: 350px;
     height: auto;
     display: inline-block;
-    font-size: 18px;
+    justify-content: space-between;
 
     &:hover{
         transform: scale(1.05);
-        color: $color-principal;
-    }
-
-    .imagen-trabajos{
-        width: 350px;
-        border-radius: 20px;
     }
 
     .titulo-tarjeta{
-        margin-top: 12px;
+       font-size: 20px;
+       margin-top: 16px; 
     }
 
     &:hover{
-        color:$color-principal
+        color: $color-principal
     }
 
     .texto-tarjeta{
-        color: $color-secundario;
+        font-size: 18px;
+        margin-top: 8px;
     }
-}
 
-@media screen and (max-width: 780px) {
 
     .imagen-trabajo-de-construccion{
-        width: 290px;
+        width: 100%;
     }
+
+}
+
+
+@media screen and (max-width:780px) {
     .tarjeta-trabajos{
-        margin-right: auto;
-        margin-left: auto;
-        width: 310px;
-        height: auto;
         display: flex;
+        justify-content: space-between;
         flex-direction: column;
-        justify-content: center;
-        align-content:center ;
-}  
+        align-self: center;
+
     }
-        
+    
+}
     

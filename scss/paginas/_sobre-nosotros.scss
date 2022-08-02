@@ -32,12 +32,13 @@
 
 } 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1200px) {
     
     .seccion-sobre-nosotros{ 
         flex-direction: column;
 }
     .texto-sobre-nosotros{
+        margin: auto;
         width: 100%;
     }
     
@@ -47,19 +48,35 @@
     background-color: black;
     padding: 10px;
 
-    .titulo-valores{
+}
+.titulo-valores{
         font-size: 36px;
         text-align: right;
         margin-right: 80px;
         margin-top: 48px;
         color: white;
-    }
-
 }
 
-.container-equipo{
+.seccion-tarjetas-valores{
     display: flex;
     justify-content: space-between;
+    align-content: center;
+}
+
+@media screen and (max-width:780px) {
+    .seccion-tarjetas-valores{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
+
+
+.tarjetas-seccion-equipo{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
     margin-top: 16px;
     margin-bottom: 60px;
 }
@@ -69,7 +86,7 @@
 }
 
 @media screen and (max-width:760px) {
-    .container-equipo{
+    .tarjetas-seccion-equipo{
         display: flex;
         flex-direction: column;
     }

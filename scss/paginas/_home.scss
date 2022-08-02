@@ -49,6 +49,21 @@
     text-align: center;
 }
 
+.seccion-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+@media screen and (max-width:780px) {
+    .seccion-tarjetas{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}
+
 .seccion-3{
     background-color: black;
     color: white;

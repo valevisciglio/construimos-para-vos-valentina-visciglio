@@ -12,3 +12,20 @@
         margin-top: 8px;
         color: $color-secundario;
     }
+
+.seccion-tarjeta-proyecto{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+
+@media screen and (max-width: 780px) {
+    .seccion-tarjeta-proyecto{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+}

@@ -25,11 +25,13 @@
 }
 .imagen-contacto{
     width: 100%;
+    padding-left: 10px;
 }
 
 @media screen and (max-width: 780px) {
     .imagen-contacto{
         width: 100%;
+        
     }
 }
 
@@ -40,7 +42,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width:780px) {
+@media screen and (max-width: 780px) {
     .formulario{
         width: 100%;
         flex-direction: column;

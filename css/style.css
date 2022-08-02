@@ -2,6 +2,11 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   font-family: "Montserrat", sans-serif;
 }
 
+footer {
+  position: absolute;
+  width: 100%;
+}
+
 .boton-color, .boton-marron {
   background-color: rgb(231, 150, 0);
   border: 0;
@@ -333,7 +338,6 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   text-align: left;
   margin-left: 60px;
   margin-top: 170px;
-  width: 100%;
 }
 .seccion-sobre-nosotros .texto-sobre-nosotros {
   font-size: 18px;
@@ -414,6 +418,8 @@ h1, h2, h3, h4, h5, p, li, a, button, form {
   font-size: 36px;
   text-align: center;
   margin-top: 140px;
+  margin-left: 16px;
+  margin-right: 16px;
 }
 
 .texto-trabajos {
